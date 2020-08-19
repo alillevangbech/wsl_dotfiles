@@ -1,0 +1,144 @@
+% xelatex
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{metalogo}
+\usepackage{xifthen}
+\usepackage[colorlinks=true,urlcolor=Blue]{hyperref}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage[T1]{fontenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{titlesec}
+\usepackage[margin=1in]{geometry}
+\usepackage{titling}
+\usepackage{libertine}
+
+
+
+
+\author{Lene Bech}
+
+% Update date set to last compile:
+\date{\today}
+
+% Custom title command.
+\renewcommand{\maketitle}{
+	\hspace{.25\textwidth}
+	\begin{minipage}[t]{.5\textwidth}
+\par{\centering{\Huge  \bfseries{\theauthor}}\par}
+	\end{minipage}
+	\begin{minipage}[0]{.30\textwidth}
+{\footnotesize\hfill{}\color{gray}
+\hfill{}Sundkaj 70, Nordhavn, Denmark \\
+\hfill{} \qquad \mbox{ } \qquad \mbox{ } \qquad \qquad \qquad \qquad \quad +45 25518762
+}
+	\end{minipage}
+}
+								
+% Custom section spacing and formatting
+\titleformat{\part}{\Huge\scshape\filcenter}{}{1em}{}
+\titleformat{\section}{\Large\bf\raggedright}{}{1em}{}[{\titlerule[2pt]}]
+\titlespacing{\section}{0pt}{3pt}{7pt}
+\titleformat{\subsection}{\large\bfseries\centering}{}{0em}{\underline}%[\rule{3cm}{.2pt}]
+\titlespacing{\subsection}{0pt}{7pt}{7pt}
+
+% Making the \entry command
+\newcommand{\entry}[4]{
+\ifthenelse{\isempty{#3}}
+{\slimentry{#1}{#2}}{
+\begin{minipage}[t]{.15\linewidth}
+\hfill \textsc{#1}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.80\linewidth}
+{\bf#2}\\\textit{#3} \footnotesize{#4}
+\end{minipage}\\
+\vspace{.2cm}
+}}
+
+
+\setlength{\parindent}{0in}
+
+\begin{document}
+
+% linkedin.com/in/lene-lillevang-bech-6694b642
+\maketitle
+\section{Introduction}
+
+\begin{itemize}
+\item Lene bech, 27Oct 1967
+\item nurse turned project manager for one of the biggest medical projects in the country.
+\item Through experience and extensive education through courses and conferences, I've become a compenent leader who always strives to promote the goodness of my team.
+\item Experienced project manager for big scale projects which relates to regulatory experience.
+\item is this wokring
+\end{itemize}
+
+\section{Published Projects}
+
+
+
+\section{Professional Experiance}
+
+\entry{2017-Present}
+	{Global Clinical Operations Lead}
+	{Leo Pharma A/S}
+	{||  Global clinical development program for a new biologic in Atopic Dermatitis.}	
+	
+
+\entry{2014-2017}
+	{Global Regulatory Portfolio Lead}
+	{Leo Pharma A/S}
+	{|| Leading regulatory strategy and development for products in over 60 markets worldwide.}	
+
+
+\entry{2012-2014}
+	{Clinical Project Manager}
+	{Leo Pharma A/S}
+	{|| Working from both DK \& USA to establish a new USA based clinical operations department.}	
+		
+
+\entry{2009-2012}
+	{CRO Collaboration Manager}
+	{Leo Pharma A/S}
+	{|| Development and implementation of the clinical outsourcing strategy for the entire clinical development organisation for phase 1-4 trials}	
+	
+
+\entry{2008-2009}
+	{Clinical Project Manager}
+	{Leo Pharma A/S}
+	{|| Leading a project for development of two new indications for an old and established biologic product in haematology }
+
+
+\entry{2006-2007}
+	{International Clinical Trial Manager}
+	{Leo Pharma A/S}
+	{|| Managing clinical focus teams, trial teams and a glocal CRA team for development of a new human recombinant protein in phase 2.}
+
+
+\entry{2002-2006}
+	{Clinical Trial Manager \& CRA}
+	{Danish Medical Department}
+	{|| Local conduct and monitoring of 12 trials in phase 2-4 in DK, SE, NO and UK}
+
+
+\entry{2008-2009}
+	{International Clinical Trial Manager}
+	{Leo Pharma A/S}
+	{|| Managing clinical focus teams, trial teams and a glocal CRA team for development of a new human recombinant protein in phase 2.}
+
+
+	
+
+\section{Education}
+
+\section{Hobbys}
+
+
+
+
+
+
+\end{document}
+

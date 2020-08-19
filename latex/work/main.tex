@@ -1,0 +1,162 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\usepackage{wrapfig}
+
+
+\setlength\intextsep{0pt}
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\begin{document}
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+\title{CV - English}
+
+\title{\vspace{-15mm}
+\fontsize{25pt}{10pt}\selectfont
+\textbf{%\hspace*{-1pt} 
+%\includegraphics[width=0.15\textwidth]{./img/logo.png}\hfill 
+\makebox[0pt][l]{\includegraphics[width=0.15\textwidth]{it}}
+\hfill
+This Text \hfill\hfill
+%\hspace*{-100pt} This Text}}
+}}
+
+\moveleft.5\hoffset\centerline{\large\bf Alexander Lillevang Bech} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width \resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+
+\moveleft.5\hoffset\centerline{Nørre Søgade 37B} % Your address
+\moveleft.5\hoffset\centerline{Copenhagen, 1370}
+\moveleft.5\hoffset\centerline{41179879}
+\moveleft.5\hoffset\centerline{alexanderlillevangbech@gmail.com}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{PROFILE}
+\frenchspacing
+I am 25 years old and just finished the MSc programme in Mathematics-Economics at the University of Copenhagen. I am an energetic and ambitious person, highly motivated by mathematical finance, economic models, and their application in the financial world.
+%I'm an 24 year old, energetic and ambitious student at the University of Copenhagen, studying mathematics $\&$ economics for the last year of my master. This choice has been mainly motivated by my liking of mathematical finance and wanting to apply this in the industry. 
+\nonfrenchspacing
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION}
+
+{\sl Master in Mathematics $\&$ Economics}  \hfill September 2017 - February 2019 \\
+University of Copenhagen
+\begin{itemize}
+\item[--] \textbf{Chosen electives:} Computational Finance, Machine Learning, \\
+$\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$ $\-$Continuous Time Finance, Fixed Income Derivatives
+\item[--] \textbf{Master's thesis:} \\ Representing the SABR formula for vanilla options through a feed-forward neural network to capture both speed and accuracy when pricing under the SABR model. Following closely in the footsteps of [McGhee 2018]\footnote{McGhee, William A, An Artificial Neural Network Representation of the SABR Stochastic Volatility Model (November 21, 2018).}.
+\end{itemize}
+
+{\sl Bachelor in Mathematics $\&$ Economics}  \hfill September 2014 - June 2017 \\
+University of Copenhagen
+\begin{itemize}
+\item[--] \textbf{Chosen electives}: Advanced Probability Theory, Applied Programming
+\end{itemize}
+
+
+ 
+%----------------------------------------------------------------------------------------
+%	Technology SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{SPECIALIZED SKILLS AND IT} 
+\begin{itemize}
+ \item \textbf{Machine learning:} \\
+I've done coursework on and implemented classic ML techniques such as K-Nearest Neighbour, Logistic Regression, Neural Networks and Random Forests. Furthermore, I've done work on dimension reducing methods, like PCA.
+ \item \textbf{{}Stochastic Calculus - Partial Differential Equations:} \\
+ I've done work on stochastic integral theory, with a heavy emphasis on the application of Itô calculus. Furthermore, I have extensive experience with PDE's theoretically through coursework as well as implementing numerical solutions.
+ \item \textbf{Tensorflow $\&$ Keras} \\
+ Tensorflow and the high level Keras API has been crucial libraries to help me through my masters thesis.
+ From making my programs run on NVIDIA GPU's to implementing custom algorithms for my learning rate and batch size to run in tandem with Keras Neural Networks, I've become very well acquainted with the Tensorflow Library.
+ \item \textbf{C++, C$\#$, Python, R, Excel, VBA, SQL:} \\
+ I've been using all of the above languages and programs throughout my studies and as a student assistant at Danske Bank and Maersk. I'm comfortable writing classes and functions in programs such as C++ and Python, and quickly implementing clean and readable algorithms. See my github\footnote{https://github.com/alillevangbech/alillevangbech} for more.
+\end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNITY SERVICE SECTION
+%---------------------------------------------------------------------------------------- 
+
+\section{EXPERIENCE}
+
+{\sl Student Assistant at Danske Bank, Corporates
+and Institutions } \hfill July 2018 - June 2019 \\ 
+\begin{itemize}
+\item[--] In the Business Development team I sit on the Fixed Income and Currencies floor, where I help create data solutions for sales and trading. This could be anything from gathering new data from Nasdaq, to making backend algorithms to automatically recognize trading packages.\\
+\end{itemize}
+{\sl Student Assistant at Maersk, Financial Markets Trading} \hfill April 2017 - June 2018 \\ 
+\begin{itemize}
+\item[--] In the Financial Markets Trading team I helped keep track of FX risk exposures, liquidity supply and the loan portfolio at Maersk. Among other things, I generated, and automated through VBA, weekly and monthly reports on hedging positions for our subsidiaries.
+\end{itemize}
+{\sl Volunteer mathematics teacher at Matematikcenter} \hfill September 2016 - March 2017 \\
+\begin{itemize}
+\item[--] Helping students with mathematics at different gymnasiums in Copenhagen.
+\end{itemize}
+\section{LANGUAGES}
+
+
+Fluent in English and Danish.
+
+
+
+ 
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+
+\end{resume}
+\end{document}
