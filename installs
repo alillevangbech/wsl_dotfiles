@@ -1,0 +1,8 @@
+vim
+neovim
+git
+zsh
+tmux
+man
+pdflatex
+cat /etc/shells; chsh; chsh -s /usr/bin/zsh; reboot->echo /usr/bin/zsh
