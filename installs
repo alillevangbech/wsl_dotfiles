@@ -4,5 +4,8 @@ git
 zsh
 tmux
 man
-pdflatex
+texlive-full (latex)
 cat /etc/shells; chsh; chsh -s /usr/bin/zsh; reboot->echo /usr/bin/zsh
+ssh
+stow
+build-essential (c++ tools)
