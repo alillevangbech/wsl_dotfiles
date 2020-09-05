@@ -11,6 +11,7 @@ call plug#begin(system('echo -n "$HOME/.config/nvim/plugged"'))
 
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete.vim'
@@ -28,7 +29,7 @@ call plug#end()
 
 syntax on
 colorscheme gruvbox
-
+let g:airline_theme='term'
 
 set encoding=utf-8
 set tabstop=4
@@ -44,8 +45,5 @@ set number
 autocmd VimLeave *.tex !texclear.sh %
 map <leader>p :!oopt.sh <c-r>%<CR>
 map <leader>c :w! \| !compiler.sh <c-r>%<CR>
-
-
-
 
 
