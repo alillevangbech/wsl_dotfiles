@@ -987,3 +987,60 @@ echo $SHELL
 chsh
 chsh -s /usr/bin/zsh
 echo $SHELL
+dir
+cd 
+ddir
+dir
+cd /etc/apt/
+sudo vi sources.list
+dir
+sudo apt update
+sudo apt upgrade
+dir
+sudo apt dist-upgrade
+sudo apt install neovim
+sudo apt install git
+dir
+cd 
+dir
+git clone https://github.com/alillevangbech/wsl_dotfiles
+cd wsl_dotfiles/
+dir
+cat installs
+sudo apt install zsh tmux
+cat installs
+sudo apt install man texlive-full ssh stow build-essential
+dir
+sudo apt install cmake
+dir
+stow
+cd ..
+dir
+ls -ak
+-ls al
+ls -al
+cd wsl_dotfiles/
+dir
+cd ..
+rm .bash_logout .bashrc
+dir
+ls -al
+dir
+rm .profile 
+dir
+cd wsl_dotfiles/
+dir
+cat installs
+cat /etc/shells 
+chsh
+chsh -s /usr/bin/zsh
+dir
+cd ..
+dir
+ls -al
+cd wsl_dotfiles/
+stow bash git nvim scripts tmux zsh
+cd .
+cd ..
+dir
+ls -al
