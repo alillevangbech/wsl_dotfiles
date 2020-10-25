@@ -1044,3 +1044,55 @@ cd .
 cd ..
 dir
 ls -al
+dir
+$EXPORT
+$DISPLAY
+firefox
+firefox-esr
+echo $DISPLAY
+dir
+cd cpp/
+dir
+mkdir harryPlotter
+dir
+cd harryPlotter/
+dir
+cd ..
+dir
+cd ..
+dir
+cd wsl_dotfiles/
+dir
+git pull
+cd ..
+cd .config/nvim/
+dir
+cat init.vim 
+dir
+nvim init.vim 
+cd plugged/
+dir
+sudo rm -r leetcode.vim/
+cd ..
+dir
+nvim init.vim 
+cd ..
+cd..
+dir
+cd ..
+cd cpp/
+dir
+cd leetcode/
+dir
+mkdir cookie
+mv /mnt/c/Users/ALBEC/AppData/
+cd ..
+dir
+ls -al
+dir
+cd wsl_dotfiles/
+dir
+cat installs
+dir
+cat /etc/shells
+chsh
