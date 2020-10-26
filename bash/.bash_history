@@ -1096,3 +1096,27 @@ cat installs
 dir
 cat /etc/shells
 chsh
+sudo apt update
+sudo apt upgrade
+dir
+sudo apt install git
+git clone https://github.com/alillevangbech/wsl_dotfiles
+dir
+cd wsl_dotfiles/
+ls -al
+cat installs
+sudo apt install neovim zsh tmux man cat stow
+sudo apt install neovim zsh tmux man stow
+dir
+cat installs
+chsh
+cat /etc/shells
+chsh
+chsh -s /usr/bin/zsh
+ls -al
+cd ..
+ls -al
+rm .bashrc .bash_history .profile 
+cd wsl_dotfiles/
+stow --target=$HOME bash git nvim scripts tmux zsh
+exit
