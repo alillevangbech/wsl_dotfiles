@@ -15,5 +15,5 @@ _comp_options+=(globdots)		# Include hidden files.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 
 
-
+source "$HOME"/.aliases
 source "$HOME"/.config/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null

@@ -11,8 +11,7 @@ call plug#begin(system('echo -n "$HOME/.config/nvim/plugged"'))
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-"Plug 'ycm-core/YouCompleteMe'
-"Plug 'ianding1/leetcode.vim'
+Plug 'ycm-core/YouCompleteMe'
 call plug#end()
 
 syntax on
@@ -24,13 +23,21 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+" keep lines short
+set colorcolumn=110
+highlight ColorColumn ctermbg=darkgray
+
+" Jump between files
+set hidden
+set path+=**
 
 " Line numbers
 set number
-
 
 " Latex stuff
 autocmd VimLeave *.tex !texclear.sh %
 map <leader>p :!oopt.sh <c-r>%<CR>
 map <leader>c :w! \| !compiler.sh <c-r>%<CR>
+map <leader>r :w! \| make && echo "\n-----------------\n" && ./run
+
 
