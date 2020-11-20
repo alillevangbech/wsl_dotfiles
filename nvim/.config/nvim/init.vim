@@ -27,6 +27,8 @@ set shiftwidth=4
 set colorcolumn=110
 highlight ColorColumn ctermbg=darkgray
 
+
+
 " Jump between files
 set hidden
 set path+=**
@@ -38,6 +40,8 @@ set number
 autocmd VimLeave *.tex !texclear.sh %
 map <leader>p :!oopt.sh <c-r>%<CR>
 map <leader>c :w! \| !compiler.sh <c-r>%<CR>
-map <leader>r :w! \| make && echo "\n-----------------\n" && ./run
 
+" c++ stuff
+map <leader>r :w! \| make && echo "\n-----------------\n" && ./run
+nnoremap fg :YcmCompleter GoTo<CR>
 
