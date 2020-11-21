@@ -1,5 +1,5 @@
-### Alexander Lillevang Bech
-	- windows subsystem	for linux dotfiles
+# *Alexander Lillevang Bech*
+windows subsystem for linux dotfiles
 
 ## Essential installs;
 	- git
