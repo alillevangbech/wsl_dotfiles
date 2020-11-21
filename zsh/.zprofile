@@ -7,7 +7,7 @@ export PATH="$PATH:$(du "$HOME/.local/bin" | cut -f2 | paste -sd ':')"
 
 # default programs
 export EDITOR="nvim"
-export READER="/mnt/c/Users/alexa/AppData/Local/SumatraPDF/SumatraPDF.exe"
+export READER="/mnt/c/Users/ALBEC/AppData/Local/SumatraPDF/SumatraPDF.exe"
 
 
 

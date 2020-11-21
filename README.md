@@ -1,22 +1,23 @@
-wsl dotfiles
+### Alexander Lillevang Bech
+	- windows subsystem	for linux dotfiles
 
 ## Essential installs;
-		- git
-		- zsh
-		- nvim
-		- man
-		- tmux
-		- stow
+	- git
+	- zsh
+	- nvim
+	- man
+	- tmux
+	- stow
+
+## Nice-to-have;
+	- ssh
+	- build-essential
+	- cmake
+	- python3-dev
+	- texlive-full 
 
 ## Import files;
 	- stow git zsh nvim tmux
-
-## Nice-to-have;
-		- ssh
-		- build-essential
-		- cmake
-		- python3-dev
-		- texlive-full 
 
 ## Set zsh-default shell;
 	- cat /etc/shells;
