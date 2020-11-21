@@ -1,28 +1,31 @@
 wsl dotfiles
 
-
-	install
+## Essential installs;
+		- git
 		- zsh
 		- nvim
-		- pdflatex
 		- man
-		- tmux (maybe)
+		- tmux
+		- stow
 
-	
-	folders
-		- .config
-		- .config/nvim
-		- .config/zsh
-		- .local/bin
-		- .cache
+## Import files;
+	- stow git zsh nvim tmux
 
-	
-	do a bunch of sym links
+## Nice-to-have;
+		- ssh
+		- build-essential
+		- cmake
+		- python3-dev
+		- texlive-full 
 
+## Set zsh-defualt shell;
+	- cat /etc/shells;
+	- chsh;
+	- chsh -s /usr/bin/zsh;
+	- (reboot here)
+	- echo /usr/bin/zsh
 
-
-
-
-
-
-
+## YouCompleteMe setup; (c familiy)
+	- cd $HOME/.config/nvim/plugged/YouCompleteMe/
+	- sudo apt install build-essential cmake python3-dev
+	- python3 install.py --clangd-completer
