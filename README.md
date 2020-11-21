@@ -1,4 +1,4 @@
-# *Alexander Lillevang Bech*
+# **Alexander Lillevang Bech**
 windows subsystem for linux dotfiles
 
 ## Essential installs;
