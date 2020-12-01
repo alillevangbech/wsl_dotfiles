@@ -8,14 +8,14 @@
 # Globallyu
 # git config --global core.filemode false
 
-
-
-
-
 [core]
 	autocrlf = false
 [merge]
 	tool = vimdiff
 	conflictstyle = diff3
+
 [mergetool]
 	prompt = false
+
+[credential]
+	helper = store
