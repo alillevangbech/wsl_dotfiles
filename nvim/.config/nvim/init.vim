@@ -40,8 +40,11 @@ set number
 autocmd VimLeave *.tex !texclear.sh %
 map <leader>p :!oopt.sh <c-r>%<CR>
 map <leader>c :w! \| !compiler.sh <c-r>%<CR>
-
 " c++ stuff
 map <leader>r :w! \| make && echo "\n-----------------\n" && ./run
 nnoremap fg :YcmCompleter GoTo<CR>
+
+" all to system clip
+map <leader>a :%y+ \| <c-r>%<CR>
+map <leader>ac :%s/^\s\+//e \| <c-r>%<CR>
 

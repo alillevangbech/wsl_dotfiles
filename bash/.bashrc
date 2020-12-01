@@ -117,3 +117,4 @@ export LIBGL_ALWAYS_INDIRECT=1
 export PATH="$PATH:/opt/mssql-tools/bin"
 export PATH="$PATH:/opt/mssql-tools/bin"
 export PATH="$PATH:/opt/mssql-tools/bin"
+source "/home/albec/~/.config/rust/.cargo/env"
